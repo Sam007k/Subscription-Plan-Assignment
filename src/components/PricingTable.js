@@ -105,10 +105,19 @@ const PricingTable = () => {
                         marginRight: "-2rem",
                         verticalAlign: "sub",
                         fontSize: "20px",
-                        color: "red",
+                        color: "rgb(224, 85, 85)",
                       }}
                     >
-                      $300
+                      <sup
+                        style={{
+                          fontSize: "12px",
+                          fontWeight: "bold",
+                          marginRight: "3px",
+                        }}
+                      >
+                        $
+                      </sup>
+                      300
                     </sub>
                   </p>
                 </div>
@@ -125,17 +134,8 @@ const PricingTable = () => {
 
       <tbody>
         <tr>
-          <td>
+          <td colspan="5">
             <h2 className="heading">Gov Shop Membership</h2>
-          </td>
-          <td>
-            <h2 className="heading hidden">Brand</h2>
-          </td>
-          <td>
-            <h2 className="heading hidden">Brand</h2>
-          </td>
-          <td>
-            <h2 className="heading hidden">Brand</h2>
           </td>
         </tr>
 
@@ -220,19 +220,10 @@ const PricingTable = () => {
           </td>
         </tr>
         <tr>
-          <td>
+          <td colspan="5">
             <h2 className="heading">
               Opportunity Matching and Market Intelligence
             </h2>
-          </td>
-          <td>
-            <h2 className="heading hidden">Brand</h2>
-          </td>
-          <td>
-            <h2 className="heading hidden">Brand</h2>
-          </td>
-          <td>
-            <h2 className="heading hidden">Brand</h2>
           </td>
         </tr>
 
@@ -324,17 +315,8 @@ const PricingTable = () => {
         </tr>
 
         <tr>
-          <td>
+          <td colspan="5">
             <h2 className="heading">Marketing</h2>
-          </td>
-          <td>
-            <h2 className="heading hidden">Brand</h2>
-          </td>
-          <td>
-            <h2 className="heading hidden">Brand</h2>
-          </td>
-          <td>
-            <h2 className="heading hidden">Brand</h2>
           </td>
         </tr>
 
@@ -420,19 +402,10 @@ const PricingTable = () => {
         </tr>
 
         <tr>
-          <td>
+          <td colspan="5">
             <h2 className="heading">
               Global Community Membership and Training
             </h2>
-          </td>
-          <td>
-            <h2 className="heading hidden">Global</h2>
-          </td>
-          <td>
-            <h2 className="heading hidden">Global</h2>
-          </td>
-          <td>
-            <h2 className="heading hidden">Global</h2>
           </td>
         </tr>
 
