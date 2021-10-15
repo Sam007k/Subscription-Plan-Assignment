@@ -1,5 +1,5 @@
 import "./App.scss";
-import PricingTable from "./components/PricingTable";
+import PricingTable from "./components/SubscriptionPlans";
 
 function App() {
   return (
